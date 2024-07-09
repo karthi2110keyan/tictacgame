@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4ae7c1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+   
+    
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    width:250px;
+    height: 200px;
+ 
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-image: url(../tic-tac-toe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+}
+
+.choose-box{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose{
+    width: 200px;
+    height: 100px;
+    border: 5px solid #1d1d1d;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.choose-x,.choose-o{
+    min-width: 85px;
+    min-height:85px;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.choose-x{
+    color: #ff6b6b;
+}
+.choose-o{
+    color: #eebb4d;
+}
+
+main{
+
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a{
+    color: #1d1d1d;
+    font-size: 1.5rem;
+    background-color: #ff6b6b;
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+a:nth-child(2){
+    background-color: #eebb4d; 
+}
+
+a:hover{
+    box-shadow: none;
+}

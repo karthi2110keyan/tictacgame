@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+body{
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+        width:100vw;
+        height:100vh;
+       background-color:#4ae7c1;
+        flex-direction:column;
+}
+    
+.container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width:90%;
+        height:400px;
+        align-items: center;
+        justify-content: center;
+
+    
+}
+.box{
+        color: #eebb4d;
+        min-width:110px;
+        height:110px;
+        background-color: #323332;
+        font-weight:bolder;
+        font-size:5rem;
+        text-shadow:3px 3px 5px black ;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        border-radius: 10px;
+        text-align: center;
+}
+h1,H2{
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    padding: 1.5rem;
+
+}
+    
+
+
+
+
+
+
+
+#front-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    transition: transform 0.3s linear;
+}
+
+
+.open{
+    width: 100%;
+    height: 50%;
+    background-color: hsla(0, 100%, 50%, 0.034);
+}
+
+.open:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    color: black;
+}
+.open:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+.computer,.friend{
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+header{
+    width: 100vw;
+    height: 200px;
+
+}
+
+
+.top{
+    width: 100%;
+    height: 50px;
+    padding-left: 1rem;
+}
+
+.middle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.close{
+    width: 60px;
+    height: 60px;
+    background-image: url(../arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    border-radius: 10px;
+  
+    padding: 1rem 2rem;
+}
+
+.player,.player1{
+    width: 100px;
+    height: 100px;
+    margin: 0rem 1rem;
+   
+   
+}
+.player{
+    background-image:url(../man.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+.player1{
+    background-image:url(../science-fiction\ \(1\).png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.turns{
+   
+    width: 150px;
+    height: 60px;
+    background-color:#323332;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+/* -----------ending button----------------- */
+
+.button-box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:#4ae7c1;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    visibility: hidden;
+
+}
+
+
+.result-box{
+    width: 300px;
+    height: 50px;
+    
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.result-box-two{
+    width: 400px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn1,.btn2{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #323332;
+}
+
+.btn1{
+    background-color: #ff6b6b;
+    font-size: 1.3rem;
+}
+.btn2{
+    background-color: #eebb4d;
+    font-size: 1.3rem;
+}
